@@ -31,4 +31,4 @@ RUN wget https://github.com/Grover-c13/MultiAdmin/releases/download/3.2.5/MultiA
 
 COPY ./entrypoint.sh /entrypoint.sh
 
-CMD["/bin/bash", "/entrypoint.sh"]
+CMD ["/bin/bash", "/entrypoint.sh"]
